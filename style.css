@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background-image: url("./pc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav {
+  background-color: #fff;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+li {
+  padding: 20px;
+}
+li:hover {
+  background-color: rgb(222, 222, 222);
+}
+li:first-child {
+    margin-right: auto;
+}
